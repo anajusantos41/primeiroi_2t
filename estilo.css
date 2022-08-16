@@ -1,5 +1,5 @@
 body {
-  background: crimson;
+  background: cornsilk;
 }
 h1 {
   text-align: center;
@@ -8,7 +8,7 @@ h1 {
   position: absolute;
   width: 200px;
   height: 200px;
-  background: green;
+  background: darksalmon;
   left: 0;
   bottom:0;
 }
@@ -16,7 +16,7 @@ h1 {
   position: absolute;
   width: 200px;
   height: 200px;
-  background: yellow;
+  background: darkred;
   left: 205px;
   bottom:0;
 }
@@ -24,7 +24,7 @@ h1 {
   position: absolute;
   width: 100%;
   height: 45px;
-  background: blueviolet;
+  background: #a9c5e6;
   font-family: 'Courier New', Courier, monospace;
 }
 nav ul{
@@ -39,12 +39,46 @@ li{
 }
 li a{
   display: block;
-  color: cornflowerblue;
+  color: brown;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 li a:hover{
   background: rgb(87, 209, 17);
-  color: beige;
+  color: brown;
+}
+#onça {
+  width: 15%;
+
+}
+.caixaOnça {
+  position: absolute;
+  top: 45px;
+  width: 90%;
+  height: 160px;
+  background-color: #a9c5e6;
+  left: 0;
+  margin: 20px;
+  border-color: brown;
+  border-width: 20px;
+  border-style: solid;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.caixaOnça2 {
+  position: absolute;
+  top: 45px;
+  width: 90%;
+  height: 160px;
+  background-color: darkseagreen;
+  left: 0;
+  margin: 20px;
+  border-color: dimgrey;
+  border-width: 20px;
+  border-style: solid;
+  padding: 20px;
+  display: flex;
+  justify-content: end;
 }
